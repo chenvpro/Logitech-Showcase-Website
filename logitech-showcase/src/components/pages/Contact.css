@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (width <= 1023px){
+    .contact-title, .personal-data-title{
+        text-align: center;
+    }
+
+    .input-name-data, .oneLine-input-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input{
+        margin: 0 auto 10px auto;
+        width: 60vh;
+        height: 40px;
+        border-radius: 25px;
+        border: 1px solid black;
+        padding: 0 10px;
+    }
+    
+    .message-textArea{
+        height: 200px;
+        padding-top: 10px;
+        border-radius: 15px;
+    }
+
+    .checkbox-container{
+        display: flex;
+        width: 65vh;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .policy-checkbox{
+        width: 20px;
+        height: 20px;
+        align-items: start;
+        margin: 10px 5px 0 0;
+    }
+
+    .policy-text{
+        margin: 10px 0 10px 0;
+        text-align: justify;
+    }
+
+    .btn-container{
+        width: 100%;
+        display: flex;
+    }
+
+    .btn-submit{
+        margin: 0 auto 50px auto;
+        width: 125px;
+        height:40px;
+        background-color: #515151;
+        border-radius: 25px;
+        border: 2px solid black;
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+    }      
+
+}
+
+
+@media screen and (min-width: 1024px){
+    
+    .personal-data-container{
+        width: 100%;
+    }
+
+    .personal-data-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-container{
+        width: 100%;
+    }
+
+    input{
+        height: 40px;
+        border-radius: 25px;
+        padding: 0 15px;
+        margin: 15px 0;
+        border: 2px solid black;
+    }
+
+    .input-name-data{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstname-input, .lastname-input{
+        width: 225px;
+        margin: 5px;
+    }
+
+    .oneLine-input-container{
+        width: 490px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        justify-content: center;
+    }
+
+    .mail-input{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .message-textArea{
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px 15px 250px 15px;
+        height: 40px;
+        border-radius: 15px;
+        border: 2px solid black;
+        font-family: sans-serif;
+    }
+
+    .checkbox-container{
+        width: 520px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .policy-checkbox{
+        width: 20px;
+        height: 20px;
+        align-items: start;
+        margin: 10px 20px 0 0;
+    }
+
+    .policy-text{
+        margin: 10px 0;
+        text-align: justify;
+    }
+
+    .btn-container{
+        width: 100%;
+        display: flex;
+    }
+
+    .btn-submit{
+        margin: 0 auto 100px auto;
+        width: 150px;
+        height: 40px;
+        background-color: #515151;
+        border-radius: 25px;
+        border: 2px solid black;
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+    }   
+
+}

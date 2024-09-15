@@ -1,0 +1,236 @@
+@media screen and (width < 1024px){
+
+    .footer-band{
+        height: 475px;
+        background-color: #515151;
+        color: white;
+    }
+    .footer-info-category{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-category{
+        width: 30%;
+        margin: 1%;
+    }
+
+    .newsletter-container{
+        justify-content: center;
+    }
+
+    .newsletter-title, .newsletter-unsubscribe-text{
+        width: 75%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .newsletter-mail-input{
+        margin: 10px auto;
+        padding: 0 10px;
+        width: 50%;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 25px;
+        display: block;
+    }
+
+    .btn-subscribe{
+        width: 15%;
+        height: 40px;
+        border-radius: 25px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #515151;
+        color: white;
+        font-weight: 600;
+        display: block;
+        margin: 10px    auto;
+    }
+
+    .footer-end{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-copyright{
+        margin-left: 15px;
+        color: #8E8D8D;
+    }
+
+    .footer-policy-privacy{ 
+        text-align: right;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (width < 663px) {
+
+
+    .footer-end{
+        display: block;
+    }
+
+    .footer-copyright{
+        margin: 5px 0 5px 5px;
+        color: #8E8D8D;
+    }
+
+    .footer-policy-privacy{ 
+        text-align: left;
+        margin: 0 0 5px 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (width > 411px){
+    .footer-band{
+        height: 550px;
+    }
+}
+
+@media screen and (width > 568px){
+    .footer-band{
+        height: 700px;
+    }
+
+    .footer-info-category{
+        margin-bottom: 50px;
+    }
+
+    .footer-title{
+        height: 48px;
+    }
+
+    .footer-item{
+        height: 48px;
+    }
+
+    .mobile-bar{
+        width: 95%;
+        display: block;
+    }
+
+    .newsletter-title, .newsletter-unsubscribe-text{
+        width: 90%;
+    }
+
+    .newsletter-mail-input{
+        width: 75%;
+    }
+
+    .btn-subscribe{
+        width: 20%;
+    }
+}
+
+@media screen and (width > 1024px){
+
+    .footer-container{
+        width: 100%;
+    }
+
+    h4{
+        margin: 0 0 40px 0;
+    }
+
+    .footer-title{
+        text-transform: uppercase;
+    }
+
+    .footer-band{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        padding: 10px 5%;
+        display: flex;
+        color: white;
+        background-color: #515151;
+        align-items: start;
+    }
+
+    .footer-info-category{
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 20px;
+    }
+
+    .footer-item{
+        width:fit-content ;
+        margin: 5px 0;
+    }
+
+    .footer-item:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .mobile-bar{
+        display: none;
+    }
+
+    .newsletter-container{
+        margin-top: 50px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .newsletter-title{
+        margin: 0;
+        text-align: center;
+    }
+
+    .newsletter-unsubscribe-text{
+        display: none;
+    }
+
+    .newsletter-mail-input{
+        margin: 10px 0;
+        padding: 0 0 0 3%;
+        width: 97%;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+    
+    .btn-subscribe{
+        width: 33%;
+        height: 40px;
+        border-radius: 25px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #515151;
+        color: white;
+        font-weight: 600;
+    }
+
+    .btn-subscribe:hover{
+        cursor: pointer;
+        background-color: white;
+        color: #515151;
+        transition: background-color 0.2s ease;
+    }
+
+    .footer-end{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-policy-privacy{ 
+        text-align: right;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    .footer-policy-privacy:hover{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (width > 1440px) {
+    .newsletter-unsubscribe-text{
+        display: block  ;
+    }
+}

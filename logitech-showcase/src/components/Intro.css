@@ -1,0 +1,110 @@
+@media screen and (width <= 1023px){
+
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .image-intro{
+        width: 75%;
+        margin: 3% auto 0 auto;
+    }
+
+    .intro-text-container{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .intro-container{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .image-intro{
+        width: 45%;
+        height: auto;
+        margin: 0 3%;
+        justify-content: center;
+    }
+    
+    .intro-text-container{
+        width: 50%;
+        height: 200px;   
+    }
+    
+    .intro-title{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-text{
+        width: 400px;
+        margin: 20px auto;
+        text-align: justify;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    hr{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .intro-container{
+        margin-bottom: 100px;
+    }
+
+    .image-intro{
+        margin-left: 5%;
+    }
+
+    .intro-title{
+        font-size: 36px;
+    }
+
+    .intro-text{
+        width: 500px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .intro-container{
+        height: 400px;
+    }
+
+    .intro-title{
+        font-size: 34px;
+    }
+
+    .intro-text{
+        width: 600px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .intro-container{
+        height: 500px;
+    }
+
+    .intro-title{
+        font-size: 36px;
+    }
+
+    .intro-text{
+        width: 650px;
+        font-size: 26px;
+    }
+}
